@@ -13,3 +13,45 @@
     font-family: 'Poppins','Times New Roman', Times, serif; ;
     box-sizing: border-box;
 }
+
+h1{
+
+    font-size: 45px;
+    margin: auto;
+}
+
+#container {
+
+   
+    height: 550px;
+    width: 500px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#rules{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(82, 75, 75);
+    padding: 25px;
+   
+    border-radius: 50px 20px;
+    
+    background-color: var(--main-color);
+
+
+
+}
+#start-button{
+
+    border-radius: 50px 50px 50px 50px  ;
+    background-color: #ffb703;
+    padding: 5px 20px;
+    font-style: oblique;
+    font-size: 25px;
+    align-self: center;
+    
+
+}
